@@ -4,6 +4,10 @@ const types = {
     email: {
         regex: /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
         massage: 'Preeencha um e-mail valido',
+    },
+    password: {
+        regex: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,16}$/,
+        massage: 'Preencher uma senha valida com pelo menos uma letra maiuscula, um digito númerico e um caracter especial',
     }
 }
 
