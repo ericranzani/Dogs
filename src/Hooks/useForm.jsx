@@ -8,6 +8,10 @@ const types = {
     password: {
         regex: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,16}$/,
         massage: 'Preencher uma senha valida com pelo menos uma letra maiuscula, um digito númerico e um caracter especial',
+    },
+    number: {
+        regex: /^\d+$/,
+        message: 'Utilize apensa números',
     }
 }
 
