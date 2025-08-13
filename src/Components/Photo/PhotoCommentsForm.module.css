@@ -5,6 +5,10 @@
     margin: 1rem;
 }
 
+.single.form {
+    margin: 1rem 0;
+}
+
 .textarea {
     display: block;
     width: 100%;
@@ -32,7 +36,7 @@
     color: #333;
     background: transparent;
     font-size: 1rem;
-    padding: 0.2rem 1rem;
+    padding: 0 1rem;
     overflow: hidden;
 }
 
